@@ -5,7 +5,7 @@
     <meta name="description" content="">
     <meta name="author" content="Thomas P Mtonga, Mitech Solutions">
     <link rel="icon" href="icon.png">
-    <link rel="stylesheet" href="Carousel.rtl.css">
+    <link rel="stylesheet" href="Styles-cfd.css">
     <title>Capacity For Development</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <style>
@@ -28,7 +28,57 @@
     }
      
     
-.home-content {padding: 0 10px;}
+.home-content {padding: 0;}
+
+  
+.circle {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 0%;
+      background-color: #e8491d;
+      text-align: center;
+      line-height: 20px;
+      font-weight: bold;
+      color: white;
+      margin-right: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .name-container {
+      display: block;
+      background-color: white;
+      border-radius: 5px;
+      margin-top: 20px;
+      padding: 5px 10px;
+      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+    }
+
+
+    .programs-container {
+      display: block;
+      background-color: white;
+      border-radius: 5px;
+      margin: 20px -5px;
+      padding: 5px 10px;
+      border: px dotted black;
+    }
+
+
+.programs-circle {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      border: 0.2px solid black;
+      background-color: #e8491d;
+      text-align: center;
+      line-height: 25px;
+      font-weight: bold;
+      color: white;
+      margin-right: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }
 
 </style>
   
@@ -165,6 +215,41 @@
 
 
 
+<!-- //////////////////////////// --> 
+<!-- ANOTHER ARTICLE -->       
+<div class="article">
+  <img class="news" src="logo_black.jpg" alt="logo_blak ">
+<h2 class="article-header">Article 1</h2>
+         
+<ul class="article-header">
+           
+<li><i class="fa fa-newspaper"></i> NEWS</li>
+
+<li><i class="fa fa-ad"></i> ADVERT</li>
+
+<li><i class="fa fa-statement"></i> STATEMENT</li>
+
+<li><i class="fa fa-calendar"></i> DATE: 26 November, 2023</li>     
+</ul>
+
+  
+<p>
+
+</P>
+
+<div class="content">
+<P>
+Yteyyueuureureureuuueu
+<br>
+Twyywyywywuywy
+
+<br>
+</p>
+
+ </div>
+    
+<button class="toggle-button" onclick="toggleContent(event, 2)">READ MORE</button>
+</div>
 
    
  
@@ -200,7 +285,7 @@
               
              &nbsp;&nbsp;&nbsp;
            <form action="mailto: cfd.organisation@gmail.com" method="post" enctype="text/plain">
-          <button class="" type="submit"><i class="fas fa-envelope"></i> EMAIL</button>
+          <button style="margin-top: 10px;" type="submit"><i class="fas fa-envelope"> </i> EMAIL</button>
             </form>
            
           </div>
@@ -286,7 +371,7 @@
          </div>
      </div>
      
-     <div class="carousel-item" style="background-color: #e8491d;">
+     <div class="carousel-item" style="background-color: #141828f3">
          
          <div class="right">
        
@@ -307,43 +392,83 @@
  
  <!-- HOME CONTENT -->
  
- <div class="row">
-<div class="col-l-9 menu"> 
- <div class="home-content">
- <h2>VISION</h2> 
- <p>Empowered Communities for a Sustainable Future.</p>
+<div class="home-content">
+<div class="row">
+<div class="col-l-9 menu">
+
  
- <h2>MISSION</h2>
- <p>Our mission is to provide accessible and high-quality skill-building programs tailored to meet specific industry needs and local job markets.</p>
- 
- <h2 id="Program">PROGRAMS</h2>
- 
- <h3>1. Education and Early Childhood Development.</h3>
- 
- <p>We enhance access to quality education and early childhood development for a strong learning foundation. This includes establishing early learning centers in underserved communities and equipping these learning centers with qualified educators and age-appropriate resources.</p>
- 
- 
- <h3>2. Innovation</h3>
- 
- <p>This program involves fostering a culture of innovation that drives economic and social progress within communities.</p>
- 
- <h3>3. Sports and Arts</h3>
- <p>Through this program we catalyze personal growth, community cohesion, and cultural expression through the support and promotion of sports and arts.</p>
- 
- <h3>4. Consultancy</h3>
- 
- <p>We provide expert consultancy services to individuals, communities, and organizations seeking guidance in their development endeavors.</p>
- 
- <h3>5. Environment and Agriculture</h3>
- <p>We advocate for sustainable environmental practices and promoting agriculture as a means of livelihood and food security.</p>
+
+ <div class="name-container">
+      <span class="circle">•</span><b>VISION</b>
+<br>Empowered Communities for a Sustainable Future.
  </div>
+ 
+
+ 
+<div class="name-container">
+ <span class="circle">•</span><b>
+ MISSION</b>
+ <br> Our mission is to provide accessible and high-quality skill-building programs tailored to meet specific industry needs and local job markets.
  </div>
+ 
+ 
+<div class="name-container">
+<span class="circle">•</span>
+<span id="Program"><b>PROGRAMS</b></span>
+ 
+ 
+<div class="programs-container" style="background: #ffdc0080; box-shadow: inset 0px 0px 10px black;">
+<span class="programs-circle">1</span>
+<b>Education and Early Childhood Development</b>
+<br>
+We enhance access to quality education and early childhood development for a strong learning foundation. This includes establishing early learning centers in underserved communities and equipping these learning centers with qualified educators and age-appropriate resources.
+</div>
+ 
+ 
+ <div class="programs-container" style="background: darkblue; color: white; box-shadow: inset 0px 0px 10px white;">
+<span class="programs-circle">2</span>
+<b>Consultancy</b>
+<br>
+We provide expert consultancy services to individuals, communities, and organizations seeking guidance in their development endeavors.
+</div>
+ 
+  
+
+<div class="programs-container" style="background: #ff88009a; box-shadow: inset 0px 0px 10px black;">
+<span class="programs-circle">3</span>
+<b>Innovation</b>
+<br>
+This program involves fostering a culture of innovation that drives economic and social progress within communities.
+</div>
+  
+  
+  
+  
+<div class="programs-container" style="background: royalblue; color: white; box-shadow: inset 0px 0px 10px black;">
+<span class="programs-circle">4</span>
+<b>Sports and Arts</b>
+<br>Through this program we catalyze personal growth, community cohesion, and cultural expression through the support and promotion of sports and arts.
+</div>
+
+
+ 
+<div class="programs-container" style="background: green; color: white; box-shadow: inset 0px 0px 10px black;">
+<span class="programs-circle">5</span>
+<b>Environment and Agriculture</b>
+<br>
+We advocate for sustainable environmental practices and promoting agriculture as a means of livelihood and food security.
+</div>
+</div>
+</div>
+
+ 
+ 
  
 
 <div class="col-l-3 main"> 
  <div class="Donate">
      
- <h3>DONATE</h3>
+ <h2 style="background: white; text-align: center; width: 100%; color: black; ">DONATE</h2>
  <p>Every donor will be sent a receipt for their donation if they provide an Email address. Be assured that none of the donations will be used for staff costs unless we have communicated in advance. We are a small Organisation, with volunteers as staff who are committed to ensuring your donation goes directly to helping children and young people and the population we serve.</p>
 </div>
 </div>
@@ -369,17 +494,13 @@
 <form action="mailto: cfd.organisation@gmail.com" method="post" enctype="text/plain">
 <button class="" type="submit"><i class="fas fa-envelope"></i> EMAIL</button>
   </form>
- 
- 
- 
- 
- 
+
   </div>
   </div>
        
       
   
-  <div class="col-l-6 main">
+ <div class="col-l-6 main">
   
  <p><span  style="font-weight: bold;">Head office</span>
  <br>
@@ -387,13 +508,12 @@
  <br>
  C/O Mzuzu City Council, P.O Box 1, Mzuzu, Malawi.
  </p>    
- </div>   
+ </div>
  </footer>
+ </div>
  </div>
  
  
- 
-
 
 
 
@@ -424,11 +544,13 @@
  
 <!-- ///////////////////////////////// -->
 <!-- ABOUT PAGE CONTENT-->
-<br><br>
+<br><br><br>
 <div class="row">
-      <div class="col-l-9 menu">
+      <div class="col-l-9 menu" style="padding: 0 15px;">
 
-<h3>About Us</h3>
+<h3 style="background: black; color: white; text-align: center; border-radius: 5px; border: 1px solid black; box-shadow: inset 0px 0px 10px white;">About Us</h3>
+
+<div style="text-align: left;              padding: 15px; line-height: 25px; border-radius: 10px; box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2); margin-bottom: 15px; box-shadow: inset 0px 0px 10px black;">
 
 <p>Welcome to Capacity For Development website!</p>
 
@@ -439,6 +561,7 @@
 
 <p>We are grateful for the support we have received from individuals, businesses, and organizations around the world. Without this support, we would not be able to do the work that we do. We invite you to learn more about our organization and consider supporting our work. Thank you for visiting our website!</p>
 
+</div>
 </div>
  
  
