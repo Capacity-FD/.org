@@ -273,6 +273,26 @@ ul#services li{
     }
 
 
+    .name-container {
+      display: block;
+      background-color: white;
+      border-radius: 5px;
+      margin-top: 20px;
+      padding: 5px 10px;
+      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+    }
+
+
+    .programs-container {
+      display: block;
+      background-color: white;
+      border-radius: 5px;
+      margin: 20px -5px;
+      padding: 5px 10px;
+      border: 1px solid black;
+    }
+    
+
 
 
 /* Media Queries */
@@ -442,10 +462,9 @@ header #branding {text-align: center;}
 
 
 /* Media Queries */
-@media(min-width: 800px){
+@media(min-width: 810px){
 
 header #branding h3{font-size: 25px;}
-
 
 .navbar {
       background-color: none;
@@ -476,7 +495,6 @@ header #branding h3{font-size: 25px;}
       font-size: 25px;
       font-weight: bold;
     }
-    
 
 
 #newsletter form {
@@ -589,6 +607,245 @@ header #branding h3{font-size: 25px;}
 }
 
 
+/* Media Queries */
+@media(min-width: 1000px){
+
+header #branding h3{font-size: 30px;}
+
+
+header nav{
+    right: 100px;
+    font-size: 30px;
+}
+
+.navbar .nav-button {
+      text-decoration: none;
+      color: white;
+      margin: 0 3px;
+      background: none;
+      padding-top: 8px;
+      border: none;
+      font-size: 30px;
+      
+    }
+    
+ .navbar .nav-button.active{
+      color: #e8491d;      
+      text-decoration: none;
+      margin: 0 3px;
+      background: none;
+      border: none;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    
+
+
+#newsletter .Search{
+  float:left;
+  padding 0 10px;
+  margin-top: 0px;
+  font-weight: bolder;
+  font-size: 35px;
+  margin-left: 70px;
+}
+
+#newsletter input[type="text"]{
+  height: 35px;
+  width:250px;
+  padding: 7px;
+  font-size: 25px;
+  margin-right: 70px;
+}
+
+
+.name-container {
+      padding: 20px 20px;
+      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+    }
+
+
+.programs-container {
+      padding: 10px 22px;
+    }
+    
+
+.col-l-6.menu{
+    padding-left: 80px;
+    }
+
+.col-l-3.main {padding-right: 22px;
+    padding-left: 5px;
+    }
+
+.col-l-9.menu {
+    padding-left: 22px;
+    padding-right: 15px;
+    }
+
+}
+
+
+
+/* Media Queries */
+@media(min-width: 1400px){
+
+header #branding h3{
+    font-size: 40px;
+   }
+
+
+header nav{
+    right: 150px;
+    font-size: 35px;
+    padding-top: 0;
+}
+
+.col-l-3.main {padding-right: 50px;
+padding-left: 20px;}
+
+.col-l-9.menu {
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+
+    .carousel {
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+      width: 100%;
+      height: 250px;
+      margin-top: 80px;        
+    }
+
+    .carousel-item {
+      width: 100%;
+      height: 100%;
+      display: none;
+      background-color: #ccc;
+      text-align: center;
+      font-size: 24px;
+      color: #fff;
+      line-height: 30px;
+    }
+
+    .carousel-item.active {
+      display: block;
+    }
+    
+.carousel-item .left{
+    text-align: left;
+    margin-left:70px;}
+    
+.carousel-item .center{
+    text-align: center;
+    margin: 0 60px;}
+ 
+
+.carousel-item .right{
+    text-align: right;
+    margin-right: 70px;}
+ 
+
+
+    .carousel-indicators {
+      text-align: center;      
+      margin-top: 180px;      
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      position: absolute;
+    }
+    
+    .carousel-indicators button {
+      display: inline-block;
+      width: 45px;
+      height: 5px;
+      border: none;
+      background-color: white;
+      cursor: pointer;
+    }
+
+    .carousel-indicators button.active {
+      background-color: #333;
+    }
+
+
+    .carousel-navigation1 {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 90px;
+      position: absolute;
+      left: 30px;
+    }
+    
+.carousel-navigation2 {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 90px;
+      position: absolute;
+      right: 30px;
+    }
+    
+
+    .carousel-navigation1 button {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      font-size: 30px;
+      background: none;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    
+    
+    .carousel-navigation2 button {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      font-size: 30px;
+      background: none;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+.col-l-6.menu{
+    padding-left: 100px;
+    }
+.col-l-6.menu{
+    padding-right: 100px;
+    }
+
+#newsletter .Search{
+      margin-top: 20px;
+    }
+
+#newsletter input[type="text"]{
+    margin-top: 20px;
+    }
+
+.name-container {
+      padding: 20px 30px;
+      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+    }
+
+
+.programs-container {
+      padding: 10px 32px;
+      border: 1px solid black;
+    }
+
+
+
+}
+
+
+
+
 
 /* ///////////////////////////////////// */
 /* RAW AND COLUMNS*/
@@ -620,9 +877,9 @@ header #branding h3{font-size: 25px;}
       }
    
  .main, .aside, .menu {
-         padding: 8px;
+         padding: 0 8px;
       }
-      
+
 
 
 form.quote{ padding:15px;
